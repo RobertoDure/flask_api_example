@@ -7,8 +7,7 @@ This project is a RESTful API built with Flask for managing student records. It 
 - `app.py`: The main application file containing the Flask app and route definitions.
 - `config.py`: Configuration file for database settings.
 - `db_model.py`: Contains the SQLAlchemy models for the database.
-- `swagger_config.py`: Contains the Swagger documentation strings.
-
+- `requirements.txt`: A list of Python packages required for the project.
 ## Setup
 
 1. Clone the repository:
