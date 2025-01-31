@@ -13,8 +13,8 @@ This project is a RESTful API built with Flask for managing student records. It 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/RobertoDure/flask_student_api.git
-    cd flask_student_api
+    git clone https://github.com/RobertoDure/flask_api_example.git
+    cd flask_api_example
     ```
 
 2. Create a virtual environment and activate it:
