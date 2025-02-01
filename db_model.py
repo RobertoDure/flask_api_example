@@ -1,9 +1,10 @@
 from flask_sqlalchemy import SQLAlchemy
 import datetime
 
-
+# Create a database object
 db = SQLAlchemy()
 
+# Create a Student and Lecture class
 class Student(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), nullable=False)
@@ -14,6 +15,7 @@ class Student(db.Model):
     class_ = db.Column(db.String(64), nullable=False)
     lectures = db.relationship('Lecture', backref='student', lazy=True)
 
+# Create a Lecture class
 class Lecture(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), nullable=False)
